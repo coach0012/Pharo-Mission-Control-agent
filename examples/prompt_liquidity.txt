@@ -1,0 +1,1 @@
+Prepare liquidity for token 0x1111111111111111111111111111111111111111 on Pharos Atlantic Testnet using router 0x2222222222222222222222222222222222222222 with 1000 tokens and 0.1 PHRS, token decimals 18, and 1 percent slippage.

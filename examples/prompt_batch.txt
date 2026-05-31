@@ -1,0 +1,1 @@
+Prepare a batch send on Pharos Atlantic Testnet for token 0x1111111111111111111111111111111111111111 with decimals 18 using recipients in examples/recipients.csv.
