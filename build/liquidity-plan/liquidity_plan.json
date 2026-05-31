@@ -1,0 +1,30 @@
+{
+  "status": "review",
+  "action": "add-liquidity-native",
+  "network": {
+    "name": "Pharos Atlantic Testnet",
+    "chain_id": 688689,
+    "rpc_url": "https://atlantic.dplabs-internal.com",
+    "explorer": "https://atlantic.pharosscan.xyz/",
+    "native_token": "PHRS"
+  },
+  "router": "0x2222222222222222222222222222222222222222",
+  "token": "0x1111111111111111111111111111111111111111",
+  "token_amount": "1000",
+  "raw_token_amount": "1000000000000000000000",
+  "native_amount_phrs": "0.1",
+  "raw_native_amount": "100000000000000000",
+  "slippage_bps": 100,
+  "amount_token_min": "990000000000000000000",
+  "amount_native_min": "99000000000000000",
+  "deadline": 1780248415,
+  "recipient": "deployer_from_PRIVATE_KEY",
+  "warnings": [
+    "Requires a Uniswap-V2-compatible router supplied by the user.",
+    "Spends PHRS gas and native liquidity amount."
+  ],
+  "steps": [
+    "approve token to router",
+    "call addLiquidityETH on router"
+  ]
+}
