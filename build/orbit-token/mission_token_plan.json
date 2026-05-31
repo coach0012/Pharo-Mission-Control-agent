@@ -1,0 +1,20 @@
+{
+  "status": "safe",
+  "action": "deploy-token",
+  "network": {
+    "name": "Pharos Atlantic Testnet",
+    "chain_id": 688689,
+    "rpc_url": "https://atlantic.dplabs-internal.com",
+    "explorer": "https://atlantic.pharosscan.xyz/",
+    "native_token": "PHRS"
+  },
+  "token": {
+    "name": "Orbit Token",
+    "symbol": "ORBIT",
+    "decimals": 18,
+    "total_supply": "1000000",
+    "raw_total_supply": "1000000000000000000000000"
+  },
+  "deploy_preview": "forge create --rpc-url https://atlantic.dplabs-internal.com --private-key $PRIVATE_KEY src/MissionERC20.sol:MissionERC20",
+  "safety": "Set PRIVATE_KEY locally. Do not paste it in chat."
+}
