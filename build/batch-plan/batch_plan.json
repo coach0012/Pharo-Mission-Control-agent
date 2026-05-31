@@ -1,0 +1,36 @@
+{
+  "status": "safe",
+  "action": "batch-send",
+  "network": {
+    "name": "Pharos Atlantic Testnet",
+    "chain_id": 688689,
+    "rpc_url": "https://atlantic.dplabs-internal.com",
+    "explorer": "https://atlantic.pharosscan.xyz/",
+    "native_token": "PHRS"
+  },
+  "token": "0x1111111111111111111111111111111111111111",
+  "decimals": 18,
+  "recipient_count": 3,
+  "total_raw_amount": "3000000000000000000",
+  "recipients": [
+    {
+      "row": 2,
+      "address": "0x0000000000000000000000000000000000000001",
+      "amount": "1",
+      "raw_amount": "1000000000000000000"
+    },
+    {
+      "row": 3,
+      "address": "0x0000000000000000000000000000000000000002",
+      "amount": "1",
+      "raw_amount": "1000000000000000000"
+    },
+    {
+      "row": 4,
+      "address": "0x0000000000000000000000000000000000000003",
+      "amount": "1",
+      "raw_amount": "1000000000000000000"
+    }
+  ],
+  "safety": "Dry-run by default. Real sends require PRIVATE_KEY plus --execute --confirm."
+}
